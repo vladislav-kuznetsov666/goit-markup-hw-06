@@ -45,7 +45,17 @@
     ),
     url(../images/people-office-tab.jpg);
   }
-
+  @media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office-tab-2x.jpg);
+  }
+}
   .features-item {
     width: calc((100% - 24px) / 2);
   }
@@ -141,6 +151,17 @@
     ),
     url(../images/people-office.jpg);
   }
+  @media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office-2x.jpg);
+  }
+}
 
   .section-features {
     padding: 120px 0;
@@ -233,4 +254,7 @@
         gap: 60px;
       }
       
+      .section-works {
+        display: block;
+      }
 }
