@@ -426,7 +426,6 @@ ul {
   letter-spacing: 0.02em;
   max-width: 264px;
   margin: 0 auto;
-  margin-bottom: 72px;
 }
 
 .hero {
@@ -717,6 +716,9 @@ ul {
   /* gap: 24px; */
   /* wrap for mobail  */
   flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
 .customers-item {
@@ -757,9 +759,11 @@ ul {
 /* Footer */
 
 .footer-container {
-  /* display: flex; */
-  display: block;
-  align-items: baseline;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 72px;
 }
 
 .footer-logo-wrapper {
@@ -773,7 +777,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   flex-direction: column;
 }
 
@@ -831,6 +835,7 @@ ul {
 
 .form-container {
   /* margin-left: 80px; */
+  row-gap: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -838,9 +843,6 @@ ul {
 }
 
 .form-text {
-  margin-top: 72px;
-  margin-bottom: 16px;
-
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -853,7 +855,7 @@ ul {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* gap: 24px; */
+  gap: 16px;
 
 }
 
@@ -901,7 +903,7 @@ ul {
   background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
-  margin-top: 16px;
+  
 
 }
 
@@ -975,8 +977,6 @@ ul {
 
 .mob-menu-header-navigation {
   margin-top: 80px;
-  margin-left: 40px;
-  margin-right: 279px;
   margin-bottom: 50px;
 }
 
@@ -993,9 +993,15 @@ ul {
 .mob-menu-link {
   color: #2e2f42;
   
+  
 }
 
 .mob-menu-link-first {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.mob-menu-link-second {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
