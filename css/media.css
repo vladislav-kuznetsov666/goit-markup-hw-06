@@ -135,6 +135,10 @@
   .email-input {
     width: 264px;
   } 
+
+  .contacts-link {
+    font-size: 12px;
+  }
 }
 
 @media screen and (min-width: 1158px) {
