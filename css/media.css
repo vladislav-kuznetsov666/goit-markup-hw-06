@@ -261,4 +261,8 @@
       .section-works {
         display: block;
       }
+
+      .contacts-link {
+        font-size: 16px;
+      }
 }
