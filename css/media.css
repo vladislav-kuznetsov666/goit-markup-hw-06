@@ -139,9 +139,25 @@
   .contacts-link {
     font-size: 12px;
   }
+
+  .section-banner-title {
+    font-size: 56px;
+    max-width: 496px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+  }
 }
 
 @media screen and (min-width: 1158px) {
+
+    .navigation {
+        display: flex;
+      }
+    
+      .navigation-contacts {
+        display: flex;
+      }
+
   .container {
     max-width: 1160px;
   }
@@ -233,7 +249,7 @@
     height: 88px;
   }
 
-  /* .section-banner-title {
+  .section-banner-title {
         font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
@@ -243,7 +259,7 @@
         margin-bottom: 48px;
         margin-left: auto;
         margin-right: auto;
-      } */
+      }
 
       .container .address-section .list {
         align-items: center;
@@ -265,4 +281,6 @@
       .contacts-link {
         font-size: 16px;
       }
+
+      
 }
