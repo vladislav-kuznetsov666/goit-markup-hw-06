@@ -134,6 +134,7 @@ ul {
   bottom: -1px;
 }
 
+
 .header .container {
   display: flex;
   align-items: center;
@@ -993,6 +994,12 @@ ul {
 
 .mob-menu-list {
   display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.mob-menu-list-1 {
+  display: inline-flex;
   flex-direction: column-reverse;
   align-items: flex-start;
 }
@@ -1016,6 +1023,7 @@ ul {
   font-size: 36px;
   font-weight: 700;
 }
+
 
 .mob-menu-link-second {
   font-size: 36px;
@@ -1045,6 +1053,11 @@ ul {
 
 .mob-menu-address-section {
   font-style: normal;
+}
+
+.current {
+  position: relative;
+  color: #404BBF;
 }
 
 /* Modal window  */
